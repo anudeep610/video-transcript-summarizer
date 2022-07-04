@@ -1,0 +1,4 @@
+node_modules
+audio/*.wav
+audio_chunks/*.wav
+videos/*.mp4
