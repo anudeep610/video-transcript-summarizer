@@ -63,7 +63,7 @@ for s in article:
     sent.append(s.replace("[^a-zA-Z]", " ").split(" "))
 sent.pop() 
 
-n=int((len(sent))*1)
+n=int((len(sent))*0.2)
 
 # Generate Similary Martix of sentences
 sent_similarity_martix = similarity_matrix(sent, Stopwords)
